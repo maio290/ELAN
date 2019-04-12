@@ -1,0 +1,977 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c606d21a-0827-4eeb-bb8c-39f4ff4db642" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
+    <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/styles/base.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="34" column="14" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="14" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/BaseController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="85">
+              <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/MetricsController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/AdminView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="238">
+              <caret line="14" column="54" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="54" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/fragments/CreateAusbildungsverhaeltnisView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-34">
+              <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/actions/create.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="265">
+              <caret line="36" column="100" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="100" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/controllers/AusbildungsnachweisController.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="324">
+              <caret line="22" column="48" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="48" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/models/Ausbildungsnachweis.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="120">
+              <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/providers/Database.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="213">
+              <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="73" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/views/PrintView.php">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1445">
+              <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+              <folding>
+                <element signature="e#32#57#0#PHP" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="CSS File" />
+        <option value="JavaScript File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>prepare</find>
+      <find>ELAN\</find>
+      <find>logoutContainer</find>
+      <find>getAusbildungsnachweis</find>
+      <find>infor</find>
+      <find>replaceValue</find>
+      <find>ausbildungsverhaeltnisWrapper</find>
+      <find>dashbo</find>
+      <find>getAusbildugnsnachweisByID</find>
+      <find>loadAusbildungsnachweis(</find>
+      <find>loadAusbildungsnachweisCallback</find>
+      <find>getAusbildugnsnachweisByIDAndKey</find>
+      <find>error</find>
+      <find>ausbi</find>
+      <find>Signaturdatum</find>
+      <find>loadAusbild</find>
+      <find>Ausbildungsnachweis für</find>
+      <find>withKey</find>
+      <find>load</find>
+      <find>arbeitszeit-'.($i+1)</find>
+      <find>replaceContents</find>
+      <find>acquireAndStoreAusbildungsnachweis()</find>
+      <find>getAusbildungsnachweisWithKey</find>
+      <find>external</find>
+      <find>duration</find>
+      <find>nachweisID</find>
+      <find>centered</find>
+    </findStrings>
+    <replaceStrings>
+      <replace />
+      <replace>arbeitszeit-'.$i</replace>
+      <replace>acquireAndStoreAusbildungsnachweis(\'true\')</replace>
+    </replaceStrings>
+    <dirStrings>
+      <dir>C:\GIT\elan\src</dir>
+    </dirStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/src/models/Ausbildungsverhaeltnis.php" />
+        <option value="$PROJECT_DIR$/src/enum/Weekdays.php" />
+        <option value="$PROJECT_DIR$/src/controllers/NotificationController.php" />
+        <option value="$PROJECT_DIR$/src/models/Metrics.php" />
+        <option value="$PROJECT_DIR$/dashboard.php" />
+        <option value="$PROJECT_DIR$/src/actions/create.php" />
+        <option value="$PROJECT_DIR$/src/models/AzubiMetrics.php" />
+        <option value="$PROJECT_DIR$/src/models/AusbilderMetrics.php" />
+        <option value="$PROJECT_DIR$/src/controllers/AusbilderController.php" />
+        <option value="$PROJECT_DIR$/img/licence.txt" />
+        <option value="$PROJECT_DIR$/img/baseline-clear-24px.svg" />
+        <option value="$PROJECT_DIR$/src/scripts/router.js" />
+        <option value="$PROJECT_DIR$/src/controllers/AusbildungsverhaeltnisController.php" />
+        <option value="$PROJECT_DIR$/src/views/HeaderView.php" />
+        <option value="$PROJECT_DIR$/src/actions/modifyState.php" />
+        <option value="$PROJECT_DIR$/src/controllers/StateController.php" />
+        <option value="$PROJECT_DIR$/src/controllers/EasterEggController.php" />
+        <option value="$PROJECT_DIR$/src/views/AdminView.php" />
+        <option value="$PROJECT_DIR$/src/actions/insert.php" />
+        <option value="$PROJECT_DIR$/src/enum/Freigabestatus.php" />
+        <option value="$PROJECT_DIR$/src/views/fragments/AusbildungsnachweisFormView.php" />
+        <option value="$PROJECT_DIR$/src/views/fragments/OverflowHideView.php" />
+        <option value="$PROJECT_DIR$/src/views/fragments/AusbilderDashboardView.php" />
+        <option value="$PROJECT_DIR$/src/actions/getData.php" />
+        <option value="$PROJECT_DIR$/composer.json" />
+        <option value="$PROJECT_DIR$/src/generateQR.php" />
+        <option value="$PROJECT_DIR$/generateQR.php" />
+        <option value="$PROJECT_DIR$/src/config/ELAN.json" />
+        <option value="$PROJECT_DIR$/src/providers/config.php" />
+        <option value="$PROJECT_DIR$/printView.php" />
+        <option value="$PROJECT_DIR$/src/misc/TimeUtils.php" />
+        <option value="$PROJECT_DIR$/src/controllers/AusbildungsnachweisController.php" />
+        <option value="$PROJECT_DIR$/src/views/fragments/QRCodeView.php" />
+        <option value="$PROJECT_DIR$/src/views/fragments/MetricsView.php" />
+        <option value="$PROJECT_DIR$/src/datenblatt.php" />
+        <option value="$PROJECT_DIR$/src/views/NavbarView.php" />
+        <option value="$PROJECT_DIR$/datenblatt.php" />
+        <option value="$PROJECT_DIR$/view.php" />
+        <option value="$PROJECT_DIR$/src/views/fragments/SignatureView.php" />
+        <option value="$PROJECT_DIR$/src/scripts/requester.js" />
+        <option value="$PROJECT_DIR$/src/views/AusbildungsnachweisView.php" />
+        <option value="$PROJECT_DIR$/src/views/PrintView.php" />
+        <option value="$PROJECT_DIR$/src/scripts/manipulator.js" />
+        <option value="$PROJECT_DIR$/src/controllers/MetricsController.php" />
+        <option value="$PROJECT_DIR$/src/views/DashboardView.php" />
+        <option value="$PROJECT_DIR$/src/actions/login.php" />
+        <option value="$PROJECT_DIR$/index.php" />
+        <option value="$PROJECT_DIR$/src/misc/MessageKeyResolver.php" />
+        <option value="$PROJECT_DIR$/src/styles/base.css" />
+        <option value="$PROJECT_DIR$/src/providers/Database.php" />
+        <option value="$PROJECT_DIR$/src/models/Ausbildungsnachweis.php" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="997" />
+    <option name="y" value="446" />
+    <option name="width" value="554" />
+    <option name="height" value="1015" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="actions" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="controllers" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="enum" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="misc" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="scripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="styles" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="elan" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="elan" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="bcb0276e:PhpExternalLibrariesNodePatcher$PatchedExternalLibrariesNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.import" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\GIT\elan" />
+      <recent name="C:\GIT\elan\img" />
+      <recent name="C:\GIT\elan\src\styles" />
+      <recent name="C:\GIT\elan\src\misc" />
+      <recent name="C:\GIT\elan\src" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c606d21a-0827-4eeb-bb8c-39f4ff4db642" name="Default Changelist" comment="" />
+      <created>1554291510753</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1554291510753</updated>
+      <workItem from="1554291511912" duration="16530000" />
+      <workItem from="1554366398778" duration="34569000" />
+      <workItem from="1554454933086" duration="30734000" />
+      <workItem from="1554705413232" duration="50354000" />
+      <workItem from="1554904674937" duration="1254000" />
+      <workItem from="1554958683534" duration="2798000" />
+      <workItem from="1554971712492" duration="5207000" />
+      <workItem from="1555054707298" duration="2395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="143841000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="997" y="446" width="554" height="1015" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.68421054" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920508" weight="0.16472545" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" weight="0.32936078" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49761525" visible="true" weight="0.46712017" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" weight="0.32936078" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007949" side_tool="true" weight="0.3217768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15302067" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.49920508" weight="0.16472545" />
+      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" />
+      <window_info anchor="bottom" id="File Transfer" order="9" sideWeight="0.49761525" visible="true" weight="0.22860238" />
+      <window_info anchor="bottom" id="Database Changes" order="10" />
+      <window_info anchor="bottom" id="Terminal" order="11" />
+      <window_info anchor="bottom" id="Event Log" order="12" sideWeight="0.5007949" side_tool="true" weight="0.3217768" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Database" order="3" />
+    </layout-to-restore>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/config/ELAN.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="26" lean-forward="true" selection-start-line="2" selection-start-column="2" selection-end-line="2" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/dashboard.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" selection-start-line="1" selection-end-line="1" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/generateQR.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/datenblatt.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="493">
+          <caret line="29" column="53" selection-start-line="29" selection-start-column="53" selection-end-line="29" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/fragments/OverflowHideView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/view.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="51" column="99" selection-start-line="51" selection-start-column="99" selection-end-line="51" selection-end-column="99" />
+          <folding>
+            <element signature="e#7#46#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/printView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="32" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/requester.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2975">
+          <caret line="175" column="29" selection-start-line="175" selection-start-column="29" selection-end-line="175" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/fragments/QRCodeView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="7" column="6" selection-start-line="7" selection-start-column="6" selection-end-line="7" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/fragments/EditAusbildungsverhaeltnisView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/fragments/SignatureView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="74" selection-start-line="12" selection-start-column="60" selection-end-line="12" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/fragments/MetricsView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/GIT/elan">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$</OriginalElement>
+          <nodes>
+            <node x="187.0" y="380.0">\ELAN\views\fragments\OverflowHideView</node>
+            <node x="128.25" y="159.0">\ELAN\DatabaseModel</node>
+            <node x="414.0" y="524.0">\ELAN\Weekdays</node>
+            <node x="1230.0" y="452.0">\ELAN\views\PrintView</node>
+            <node x="643.0" y="452.0">\ELAN\MetricsView</node>
+            <node x="788.0" y="87.0">\ELAN\AdminController</node>
+            <node x="1098.0" y="87.0">\ELAN\AusbildungsnachweisController</node>
+            <node x="694.0" y="308.0">\ELAN\controllers\EasterEggController</node>
+            <node x="545.0" y="524.0">\ELAN\Database</node>
+            <node x="1080.0" y="380.0">\ELAN\DashboardView</node>
+            <node x="795.0" y="452.0">\ELAN\NavbarView</node>
+            <node x="514.0" y="87.0">\ELAN\AusbildungsverhaeltnisController</node>
+            <node x="734.0" y="380.0">\ELAN\Freigabestatus</node>
+            <node x="491.0" y="452.0">\ELAN\ClassMapper</node>
+            <node x="169.0" y="87.0">\ELAN\AusbilderController</node>
+            <node x="0.0" y="524.0">\ELAN\TimeUtils</node>
+            <node x="1103.0" y="308.0">\ELAN\AusbilderMetrics</node>
+            <node x="0.0" y="380.0">\ELAN\NotificationView</node>
+            <node x="711.0" y="159.0">\ELAN\EditAusbildungsverhaeltnisView</node>
+            <node x="996.0" y="159.0">\ELAN\AusbildungsnachweisFormView</node>
+            <node x="138.0" y="524.0">\ELAN\PostUtils</node>
+            <node x="374.0" y="380.0">\ELAN\LDAPConfigModel</node>
+            <node x="166.0" y="452.0">\ELAN\SignatureView</node>
+            <node x="1085.0" y="452.0">\ELAN\QRCodeView</node>
+            <node x="352.0" y="87.0">\ELAN\NavbarController</node>
+            <node x="902.0" y="308.0">\ELAN\MessageKeyResolver</node>
+            <node x="676.0" y="524.0">\ELAN\User</node>
+            <node x="465.0" y="308.0">\ELAN\AusbilderDashboardView</node>
+            <node x="577.0" y="0.0">\ELAN\BaseController</node>
+            <node x="332.0" y="452.0">\ELAN\AzubiMetrics</node>
+            <node x="0.0" y="452.0">\ELAN\LDAP_Provider</node>
+            <node x="0.0" y="308.0">\ELAN\AusbildungsnachweisView</node>
+            <node x="204.0" y="236.0">\ELAN\Ausbildungsnachweis</node>
+            <node x="554.0" y="380.0">\ELAN\Config_Provider</node>
+            <node x="0.0" y="236.0">\ELAN\Ausbildungsverhaeltnis</node>
+            <node x="907.0" y="380.0">\ELAN\TableGenerator</node>
+            <node x="940.0" y="452.0">\ELAN\HeaderView</node>
+            <node x="943.0" y="87.0">\ELAN\StateController</node>
+            <node x="0.0" y="87.0">\ELAN\MetricsController</node>
+            <node x="236.0" y="308.0">\ELAN\NotificationController</node>
+            <node x="412.0" y="159.0">\ELAN\CreateAusbildungsverhaeltnisView</node>
+            <node x="276.0" y="524.0">\ELAN\AdminView</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\ELAN\AdminController" target="\ELAN\BaseController">
+              <point x="0.0" y="-13.5" />
+              <point x="855.5" y="67.0" />
+              <point x="659.2857142857143" y="67.0" />
+              <point x="18.285714285714334" y="13.5" />
+            </edge>
+            <edge source="\ELAN\AusbildungsverhaeltnisController" target="\ELAN\BaseController">
+              <point x="0.0" y="-13.5" />
+              <point x="0.0" y="13.5" />
+            </edge>
+            <edge source="\ELAN\StateController" target="\ELAN\BaseController">
+              <point x="0.0" y="-13.5" />
+              <point x="1010.5" y="57.0" />
+              <point x="677.5714285714286" y="57.0" />
+              <point x="36.571428571428555" y="13.5" />
+            </edge>
+            <edge source="\ELAN\Ausbildungsnachweis" target="\ELAN\DatabaseModel">
+              <point x="0.0" y="-13.5" />
+              <point x="285.5" y="211.0" />
+              <point x="219.0" y="211.0" />
+              <point x="30.25" y="13.5" />
+            </edge>
+            <edge source="\ELAN\MetricsController" target="\ELAN\BaseController">
+              <point x="0.0" y="-13.5" />
+              <point x="74.5" y="47.0" />
+              <point x="586.1428571428571" y="47.0" />
+              <point x="-54.85714285714289" y="13.5" />
+            </edge>
+            <edge source="\ELAN\Ausbildungsverhaeltnis" target="\ELAN\DatabaseModel">
+              <point x="0.0" y="-13.5" />
+              <point x="92.0" y="211.0" />
+              <point x="158.5" y="211.0" />
+              <point x="-30.25" y="13.5" />
+            </edge>
+            <edge source="\ELAN\AusbildungsnachweisController" target="\ELAN\BaseController">
+              <point x="0.0" y="-13.5" />
+              <point x="1214.5" y="47.0" />
+              <point x="695.8571428571429" y="47.0" />
+              <point x="54.85714285714289" y="13.5" />
+            </edge>
+            <edge source="\ELAN\AusbilderController" target="\ELAN\BaseController">
+              <point x="0.0" y="-13.5" />
+              <point x="250.5" y="57.0" />
+              <point x="604.4285714285714" y="57.0" />
+              <point x="-36.571428571428555" y="13.5" />
+            </edge>
+            <edge source="\ELAN\NavbarController" target="\ELAN\BaseController">
+              <point x="0.0" y="-13.5" />
+              <point x="423.0" y="67.0" />
+              <point x="622.7142857142858" y="67.0" />
+              <point x="-18.28571428571422" y="13.5" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="-6.0" y="-22.0" />
+          <SelectedNodes />
+          <Categories />
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/TimeUtils.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/LDAP.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/AusbilderMetrics.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Ausbildungsverhaeltnis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/config.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://PHP/C:/GIT/elan/src">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>PHP</ID>
+          <OriginalElement>$PROJECT_DIR$/src</OriginalElement>
+          <nodes>
+            <node x="105.0" y="490.0">\ELAN\DatabaseModel</node>
+            <node x="1217.0" y="971.0">\ELAN\views\PrintView</node>
+            <node x="1058.0" y="1247.0">\ELAN\Weekdays</node>
+            <node x="1773.0" y="286.0">\ELAN\AdminController</node>
+            <node x="210.0" y="1247.0">\ELAN\controllers\EasterEggController</node>
+            <node x="904.0" y="490.0">\ELAN\Database</node>
+            <node x="323.0" y="176.0">\ELAN\AusbildungsnachweisController</node>
+            <node x="418.0" y="1247.0">\ELAN\DashboardView</node>
+            <node x="596.0" y="1247.0">\ELAN\NavbarView</node>
+            <node x="1205.0" y="220.0">\ELAN\AusbildungsverhaeltnisController</node>
+            <node x="996.0" y="1153.0">\ELAN\Freigabestatus</node>
+            <node x="1526.0" y="286.0">\ELAN\AusbilderController</node>
+            <node x="1273.0" y="1153.0">\ELAN\ClassMapper</node>
+            <node x="483.0" y="971.0">\ELAN\TimeUtils</node>
+            <node x="797.0" y="971.0">\ELAN\AusbilderMetrics</node>
+            <node x="0.0" y="1247.0">\ELAN\NotificationView</node>
+            <node x="697.0" y="1153.0">\ELAN\PostUtils</node>
+            <node x="1112.0" y="490.0">\ELAN\LDAPConfigModel</node>
+            <node x="1043.0" y="286.0">\ELAN\NavbarController</node>
+            <node x="1451.0" y="490.0">\ELAN\User</node>
+            <node x="984.0" y="971.0">\ELAN\MessageKeyResolver</node>
+            <node x="1050.0" y="0.0">\ELAN\BaseController</node>
+            <node x="1292.0" y="490.0">\ELAN\AzubiMetrics</node>
+            <node x="415.0" y="490.0">\ELAN\LDAP_Provider</node>
+            <node x="204.0" y="612.0">\ELAN\Ausbildungsnachweis</node>
+            <node x="0.0" y="971.0">\ELAN\AusbildungsnachweisView</node>
+            <node x="675.0" y="490.0">\ELAN\Config_Provider</node>
+            <node x="0.0" y="667.0">\ELAN\Ausbildungsverhaeltnis</node>
+            <node x="366.0" y="1153.0">\ELAN\TableGenerator</node>
+            <node x="767.0" y="1247.0">\ELAN\HeaderView</node>
+            <node x="871.0" y="253.0">\ELAN\StateController</node>
+            <node x="0.0" y="253.0">\ELAN\MetricsController</node>
+            <node x="1541.0" y="1153.0">\ELAN\NotificationController</node>
+            <node x="920.0" y="1247.0">$PROJECT_DIR$/src/views/fragments</node>
+            <node x="0.0" y="1153.0">\ELAN\AdminView</node>
+          </nodes>
+          <notes />
+          <edges>
+            <edge source="\ELAN\AdminController" target="\ELAN\BaseController">
+              <point x="0.0" y="-24.5" />
+              <point x="1840.5" y="136.0" />
+              <point x="1168.857142857143" y="136.0" />
+              <point x="54.85714285714289" y="58.0" />
+            </edge>
+            <edge source="\ELAN\AusbildungsverhaeltnisController" target="\ELAN\BaseController">
+              <point x="0.0" y="-90.5" />
+              <point x="1355.5" y="156.0" />
+              <point x="1132.2857142857142" y="156.0" />
+              <point x="18.28571428571422" y="58.0" />
+            </edge>
+            <edge source="\ELAN\StateController" target="\ELAN\BaseController">
+              <point x="0.0" y="-57.5" />
+              <point x="947.0" y="156.0" />
+              <point x="1095.7142857142858" y="156.0" />
+              <point x="-18.28571428571422" y="58.0" />
+            </edge>
+            <edge source="\ELAN\Ausbildungsnachweis" target="\ELAN\DatabaseModel">
+              <point x="0.0" y="-157.0" />
+              <point x="287.0" y="587.0" />
+              <point x="231.75" y="587.0" />
+              <point x="42.25" y="36.0" />
+            </edge>
+            <edge source="\ELAN\Ausbildungsverhaeltnis" target="\ELAN\DatabaseModel">
+              <point x="0.0" y="-102.0" />
+              <point x="92.0" y="587.0" />
+              <point x="147.25" y="587.0" />
+              <point x="-42.25" y="36.0" />
+            </edge>
+            <edge source="\ELAN\MetricsController" target="\ELAN\BaseController">
+              <point x="0.0" y="-57.5" />
+              <point x="151.5" y="136.0" />
+              <point x="1059.142857142857" y="136.0" />
+              <point x="-54.85714285714289" y="58.0" />
+            </edge>
+            <edge source="\ELAN\AusbildungsnachweisController" target="\ELAN\BaseController">
+              <point x="0.0" y="-134.5" />
+              <point x="587.0" y="146.0" />
+              <point x="1077.4285714285713" y="146.0" />
+              <point x="-36.57142857142867" y="58.0" />
+            </edge>
+            <edge source="\ELAN\NavbarController" target="\ELAN\BaseController">
+              <point x="0.0" y="-24.5" />
+              <point x="0.0" y="58.0" />
+            </edge>
+            <edge source="\ELAN\AusbilderController" target="\ELAN\BaseController">
+              <point x="0.0" y="-24.5" />
+              <point x="1639.5" y="146.0" />
+              <point x="1150.5714285714287" y="146.0" />
+              <point x="36.57142857142867" y="58.0" />
+            </edge>
+          </edges>
+          <settings layout="Hierarchic Group" zoom="1.0" x="204.0" y="220.0" />
+          <SelectedNodes />
+          <Categories>
+            <Category>Fields</Category>
+            <Category>Methods</Category>
+          </Categories>
+          <SCOPE>All</SCOPE>
+          <VISIBILITY>private</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/getData.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="646">
+          <caret line="38" column="58" selection-start-line="38" selection-start-column="58" selection-end-line="38" selection-end-column="58" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/insert.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="561">
+          <caret line="33" column="10" selection-start-line="33" selection-start-column="10" selection-end-line="35" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/modifyState.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-298" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/AusbildungsverhaeltnisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-910">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/NavbarController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="10" column="35" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/NotificationController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="8" selection-end-line="5" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/StateController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enum/Freigabestatus.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/enum/Weekdays.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="15" selection-start-line="6" selection-start-column="15" selection-end-line="6" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/EasterEggController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/ClassMapper.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="22" selection-start-line="8" selection-start-column="22" selection-end-line="8" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/AusbilderController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/login.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" column="35" selection-start-line="9" selection-start-column="35" selection-end-line="9" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="425">
+          <caret line="25" column="100" selection-start-line="25" selection-start-column="78" selection-end-line="25" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/DashboardView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/AusbildungsnachweisView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="6" selection-start-line="6" selection-start-column="6" selection-end-line="6" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/HeaderView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/NavbarView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/misc/MessageKeyResolver.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="663">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="44" selection-end-line="39" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/manipulator.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="45" column="15" selection-start-line="45" selection-start-column="15" selection-end-line="45" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/scripts/router.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/NotificationView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/PrintView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1445">
+          <caret line="85" column="26" lean-forward="true" selection-start-line="85" selection-start-column="26" selection-end-line="85" selection-end-column="26" />
+          <folding>
+            <element signature="e#32#57#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/styles/base.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="34" column="14" selection-start-line="34" selection-start-column="11" selection-end-line="34" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/BaseController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="6" selection-start-line="5" selection-start-column="6" selection-end-line="5" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/MetricsController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/AdminView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="14" column="54" selection-start-line="14" selection-start-column="22" selection-end-line="14" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/views/fragments/CreateAusbildungsverhaeltnisView.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-34">
+          <caret line="4" column="6" selection-start-line="4" selection-start-column="6" selection-end-line="4" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/providers/Database.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="213">
+          <caret line="30" column="73" lean-forward="true" selection-start-line="30" selection-start-column="34" selection-end-line="30" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/actions/create.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="265">
+          <caret line="36" column="100" selection-start-line="36" selection-start-column="39" selection-end-line="36" selection-end-column="100" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/controllers/AusbildungsnachweisController.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="22" column="48" selection-start-line="22" selection-start-column="41" selection-end-line="22" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/models/Ausbildungsnachweis.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="39" column="38" selection-start-line="39" selection-start-column="38" selection-end-line="39" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>

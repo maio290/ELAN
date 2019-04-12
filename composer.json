@@ -1,0 +1,10 @@
+{
+  "autoload": {
+    "psr-4": {
+      "ELAN\\": "src/"
+    }
+  },
+  "require": {
+    "ziplr/php-qr-code": "^1.0"
+  }
+}

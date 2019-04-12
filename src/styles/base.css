@@ -1,0 +1,255 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background: url("../../img/background.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    font-size: 1rem;
+    color: white;
+    min-height: 90vh;
+}
+
+table
+{
+    text-align: center;
+}
+
+th
+{
+    background-color: lightgray;
+}
+
+td
+{
+
+}
+
+.printTextarea
+{
+    color: black;
+    background-color: unset;
+    font-size: 1em;
+}
+
+a:link {
+    color: red;
+    text-decoration: none;
+}
+
+a:visited {
+    color: red;
+    text-decoration: none;
+}
+
+a:hover {
+    color: darkred;
+    text-decoration: none;
+}
+
+a:active {
+    color: white;
+    text-decoration: none;
+}
+
+.noSelect {
+    -moz-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.svg {
+    filter: brightness(0) invert(1);
+}
+
+.hideOverflow {
+    overflow: hidden;
+}
+
+.createAusbildungsverhaeltnis {
+    margin-left: 3vw;
+}
+
+.nachweisNavigationBar, .informationBar, .duration, .name {
+    text-align: center;
+    padding: 4px;
+    margin: auto;
+    color: white;
+}
+
+.duration
+{
+    background-color: rgba(0, 0, 0, 0.4) !important;
+}
+
+.nachweisID
+{
+    filter: drop-shadow(0px 4px 12px black);
+}
+
+.success, .error {
+    padding: 10px;
+    width: 28rem !important;
+    height: 14rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.success, .green, .ausbilderSignature {
+    background-color: rgba(0, 229, 0, 0.29) !important;
+}
+
+.azubiSignature
+{
+    background-color: rgba(229, 229,0, 0.29) !important;
+}
+
+.error, .red {
+
+    background-color: rgba(229, 0, 0, 0.29) !important;
+}
+
+.nachweisWrapper, .usernameInExternalView {
+    color: white;
+    margin: auto;
+    text-align: center;
+}
+
+.centeredPrint
+{
+    margin: auto;
+    text-align: center;
+    color: black !important;
+    background-color: white !important;
+}
+
+.centered{
+    margin: auto;
+    text-align: center;
+}
+
+.loginContainer {
+    text-align: center;
+    margin: auto;
+    margin-top: 39vh;
+    padding: 8px;
+    width: 14rem;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+input[type="submit"] {
+    background-color: rgba(0, 0, 0, 0.5) !important;
+    color: white;
+}
+
+input[type="time"] {
+    width: unset !important;
+}
+
+
+input, select, button, textarea {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.6);
+    width: 12rem;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 4px 2px;
+}
+
+select:focus, input:focus {
+    background-color: rgba(0, 0, 0, 0.50);
+    filter: drop-shadow(0px 4px 12px white);
+}
+
+textarea {
+    width: 24vw !important;;
+    height: 12vh !important;
+    margin-right: 6vw;
+}
+
+.weekday {
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+    width: 12rem;
+    border: none;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1rem;
+    padding: 2px;
+    margin: 4px 2px;
+}
+
+.name {
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+    color: white;
+    filter: drop-shadow(0px 4px 12px white);
+}
+
+input[type="submit"]:hover, button:hover {
+    background-color: rgba(0, 0, 0, 0.5);
+    filter: drop-shadow(0px 4px 12px white);
+    color: white;
+    cursor: pointer;
+}
+
+
+.admin {
+    display: table-cell;
+    width: 33vw;
+    text-align: center;
+}
+
+.username {
+    display: table-cell;
+    width: 33vw;
+    text-align: left;
+}
+
+.logoutContainer {
+    display: table-cell;
+    margin: auto;
+}
+
+.logout:hover {
+    filter: brightness(0) invert(1) drop-shadow(8px 8px 10px red);
+    cursor: pointer;
+}
+
+.logout {
+    float: right;
+    margin-right: 12px;
+}
+
+.navbar {
+    color: white;
+    margin: auto;
+    display: table;
+    width: 99vw;
+    padding: 2px;
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.dashboardContainer {
+    margin-top: 3vh;
+    padding: 4px;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.ausbildungsverhaeltnis {
+    margin-top: 3vh;
+    padding: 4px;
+    width: 100%;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.7)
+}
+
+

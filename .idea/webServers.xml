@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="WebServers">
+    <option name="servers">
+      <webServer id="42e58e9c-6352-47c6-9a0e-1e515ca50b8b" name="ba-server-050" url="http://ba-server-050/ELAN">
+        <fileTransfer host="ba-server-050" port="22" rootFolder="/var/www/html/ELAN" accessType="SFTP">
+          <advancedOptions>
+            <advancedOptions dataProtectionLevel="Private" passiveMode="true" shareSSLContext="true" />
+          </advancedOptions>
+          <option name="port" value="22" />
+        </fileTransfer>
+      </webServer>
+    </option>
+  </component>
+</project>

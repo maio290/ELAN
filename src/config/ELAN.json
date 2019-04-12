@@ -1,0 +1,20 @@
+{
+  "host": "",
+  "hideWeekendInPrintView": true,
+  "LDAP": {
+    "host": "host",
+    "port": 389,
+    "base_dn": "baseDN",
+    "username": "user",
+    "password": "password",
+    "appendix": "@brandad-systems.de"
+  },
+  "database": {
+    "host": "localhost",
+    "username": "user",
+    "password": "password",
+    "database": "ELAN"
+  },
+  "admins": [
+  ]
+}
